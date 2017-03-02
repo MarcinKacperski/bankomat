@@ -10,7 +10,7 @@ int main()
     cout << "Podaj PIN:";
     cin >> PIN;
 
-    if(PIN=="1234")
+    if(PIN=="1234"||PIN=="4321")
     {
         cout << "PIN poprawny";
     }
